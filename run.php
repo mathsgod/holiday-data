@@ -54,3 +54,5 @@ foreach (["en", "sc", "tc"] as $language) {
     //save the data
     $calendar->save();
 }
+
+file_put_contents(__DIR__ . "/last_update.txt", date("Y-m-d H:i:s"));
