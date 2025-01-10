@@ -1,4 +1,4 @@
-name: Daliy Sync
+name: Monthly Sync
 on:
   workflow_dispatch:
 
