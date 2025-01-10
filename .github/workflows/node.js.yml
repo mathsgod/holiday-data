@@ -5,7 +5,7 @@ name: Node.js CI
 
 on:
   workflow_dispatch:
-    
+
   schedule:
 # run daily at 00:00
     - cron:  '0 0 * * *'
@@ -31,8 +31,8 @@ jobs:
 #push to en.json to repo
     - name: Push changes to repo
       run: |
-        git config --local user.email "mathsgod@gmail.com"
-        git config --local user.name "Raymond"
+        git config --local user.email "41898282+github-actions[bot]"@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
         git add en.json
         git commit -m "Update en.json"
         git push
