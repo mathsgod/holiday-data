@@ -4,6 +4,10 @@
 由於1823.gov.hk只會keep近3年的資料, 所以可以用這個Project來記錄過去的資料.
 每次更新都不會刪除舊資料, 只會新增新資料.
 
+This project is used to record Hong Kong public holiday data, updated automatically every month.
+Since 1823.gov.hk only keeps data for the past 3 years, this project can be used to record historical data.
+Each update will not delete old data, only add new data.
+
 ## 資料來源
 https://www.1823.gov.hk/common/ical/en.json
 https://www.1823.gov.hk/common/ical/tc.json
