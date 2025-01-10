@@ -27,6 +27,8 @@ https://www.1823.gov.hk/common/ical/sc.json
 
 資料由2011年11月26日開始直到現在
 
+Data is available from November 26, 2011, to the present.
+
 https://raw.githubusercontent.com/mathsgod/holiday-data/refs/heads/main/data/en.json
 https://raw.githubusercontent.com/mathsgod/holiday-data/refs/heads/main/data/tc.json
 https://raw.githubusercontent.com/mathsgod/holiday-data/refs/heads/main/data/sc.json
