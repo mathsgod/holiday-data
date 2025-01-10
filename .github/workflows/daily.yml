@@ -1,5 +1,4 @@
-name: PHP Composer
-
+name: Daliy Sync
 on:
   workflow_dispatch:
 
