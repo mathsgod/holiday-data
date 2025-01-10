@@ -7,8 +7,6 @@ on:
 # run daily at 00:00
     - cron:  '0 0 * * *'
 
-permissions:
-  contents: read
 
 jobs:
   build:
@@ -38,3 +36,7 @@ jobs:
 
     # - name: Run test suite
     #   run: composer run-script test
+    - name: run php run.php
+      run: php run.php
+
+      
