@@ -4,28 +4,39 @@
 name: Node.js CI
 
 on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+  schedule:
+# run daily at 00:00
+    - cron:  '0 0 * * *'
+ 
 
 jobs:
   build:
 
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node-version: [18.x, 20.x, 22.x]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
-
     steps:
     - uses: actions/checkout@v4
-    - name: Use Node.js ${{ matrix.node-version }}
+    - name: Use Node.js 22.x
       uses: actions/setup-node@v4
       with:
-        node-version: ${{ matrix.node-version }}
+        node-version: 22.x
         cache: 'npm'
-    - run: npm ci
-    - run: npm run build --if-present
-    - run: npm test
+        
+#download https://www.1823.gov.hk/common/ical/en.json to en.json
+    - name: Download en.json
+      run: curl -o en.json https://www.1823.gov.hk/common/ical/en.json
+
+#push to en.json to repo
+    - name: Push changes to repo
+      run: |
+        git config --local user.email "mathsgod@gmail.com"
+        git config --local user.name "Raymond"
+        git add en.json
+        git commit -m "Update en.json"
+        git push
+
+
+      
+
+
+
