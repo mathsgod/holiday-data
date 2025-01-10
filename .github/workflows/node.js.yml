@@ -4,6 +4,8 @@
 name: Node.js CI
 
 on:
+  workflow_dispatch:
+    
   schedule:
 # run daily at 00:00
     - cron:  '0 0 * * *'
