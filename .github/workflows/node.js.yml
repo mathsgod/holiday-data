@@ -25,8 +25,13 @@ jobs:
 #        cache: 'npm'
         
 #download https://www.1823.gov.hk/common/ical/en.json to en.json
-    - name: Download en.json
-      run: curl -o en.json https://www.1823.gov.hk/common/ical/en.json
+    #- name: Download en.json
+      #run: curl -o en.json https://www.1823.gov.hk/common/ical/en.json
+
+    - name: create file, content is current time
+      run: echo "{\"time\":\"$(date)\"}" > en.json
+      
+
 
 #push to en.json to repo
     - name: Push changes to repo
