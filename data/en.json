@@ -1203,5 +1203,90 @@
         "id": "20251226@1823.gov.hk",
         "name": "The first weekday after Christmas Day",
         "date": "2025-12-26"
+    },
+    {
+        "id": "20260101@1823.gov.hk",
+        "name": "The first day of January",
+        "date": "2026-01-01"
+    },
+    {
+        "id": "20260217@1823.gov.hk",
+        "name": "Lunar New Year’s Day",
+        "date": "2026-02-17"
+    },
+    {
+        "id": "20260218@1823.gov.hk",
+        "name": "The second day of Lunar New Year",
+        "date": "2026-02-18"
+    },
+    {
+        "id": "20260219@1823.gov.hk",
+        "name": "The third day of Lunar New Year",
+        "date": "2026-02-19"
+    },
+    {
+        "id": "20260403@1823.gov.hk",
+        "name": "Good Friday",
+        "date": "2026-04-03"
+    },
+    {
+        "id": "20260404@1823.gov.hk",
+        "name": "The day following Good Friday",
+        "date": "2026-04-04"
+    },
+    {
+        "id": "20260406@1823.gov.hk",
+        "name": "The day following Ching Ming Festival",
+        "date": "2026-04-06"
+    },
+    {
+        "id": "20260407@1823.gov.hk",
+        "name": "The day following Easter Monday",
+        "date": "2026-04-07"
+    },
+    {
+        "id": "20260501@1823.gov.hk",
+        "name": "Labour Day",
+        "date": "2026-05-01"
+    },
+    {
+        "id": "20260525@1823.gov.hk",
+        "name": "The day following the Birthday of the Buddha",
+        "date": "2026-05-25"
+    },
+    {
+        "id": "20260619@1823.gov.hk",
+        "name": "Tuen Ng Festival",
+        "date": "2026-06-19"
+    },
+    {
+        "id": "20260701@1823.gov.hk",
+        "name": "Hong Kong Special Administrative Region Establishment Day",
+        "date": "2026-07-01"
+    },
+    {
+        "id": "20260926@1823.gov.hk",
+        "name": "The day following the Chinese Mid-Autumn Festival",
+        "date": "2026-09-26"
+    },
+    {
+        "id": "20261001@1823.gov.hk",
+        "name": "National Day",
+        "date": "2026-10-01"
+    },
+    {
+        "id": "20261019@1823.gov.hk",
+        "name": "The day following Chung Yeung Festival",
+        "date": "2026-10-19"
+    },
+    {
+        "id": "20261225@1823.gov.hk",
+        "name": "Christmas Day",
+        "date": "2026-12-25"
+    },
+    {
+        "id": "20261226@1823.gov.hk",
+        "name": "The first weekday after Christmas Day",
+        "date": "2026-12-26"
     }
 ]
