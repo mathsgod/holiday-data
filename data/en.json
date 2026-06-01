@@ -1288,5 +1288,90 @@
         "id": "20261226@1823.gov.hk",
         "name": "The first weekday after Christmas Day",
         "date": "2026-12-26"
+    },
+    {
+        "id": "20270101@1823.gov.hk",
+        "name": "The first day of January",
+        "date": "2027-01-01"
+    },
+    {
+        "id": "20270206@1823.gov.hk",
+        "name": "Lunar New Year's Day",
+        "date": "2027-02-06"
+    },
+    {
+        "id": "20270208@1823.gov.hk",
+        "name": "The third day of Lunar New Year",
+        "date": "2027-02-08"
+    },
+    {
+        "id": "20270209@1823.gov.hk",
+        "name": "The fourth day of Lunar New Year",
+        "date": "2027-02-09"
+    },
+    {
+        "id": "20270326@1823.gov.hk",
+        "name": "Good Friday",
+        "date": "2027-03-26"
+    },
+    {
+        "id": "20270327@1823.gov.hk",
+        "name": "The day following Good Friday",
+        "date": "2027-03-27"
+    },
+    {
+        "id": "20270329@1823.gov.hk",
+        "name": "Easter Monday",
+        "date": "2027-03-29"
+    },
+    {
+        "id": "20270405@1823.gov.hk",
+        "name": "Ching Ming Festival",
+        "date": "2027-04-05"
+    },
+    {
+        "id": "20270501@1823.gov.hk",
+        "name": "Labour Day",
+        "date": "2027-05-01"
+    },
+    {
+        "id": "20270513@1823.gov.hk",
+        "name": "The Birthday of the Buddha",
+        "date": "2027-05-13"
+    },
+    {
+        "id": "20270609@1823.gov.hk",
+        "name": "Tuen Ng Festival",
+        "date": "2027-06-09"
+    },
+    {
+        "id": "20270701@1823.gov.hk",
+        "name": "Hong Kong Special Administrative Region Establishment Day",
+        "date": "2027-07-01"
+    },
+    {
+        "id": "20270916@1823.gov.hk",
+        "name": "The day following the Chinese Mid-Autumn Festival",
+        "date": "2027-09-16"
+    },
+    {
+        "id": "20271001@1823.gov.hk",
+        "name": "National Day",
+        "date": "2027-10-01"
+    },
+    {
+        "id": "20271008@1823.gov.hk",
+        "name": "Chung Yeung Festival",
+        "date": "2027-10-08"
+    },
+    {
+        "id": "20271225@1823.gov.hk",
+        "name": "Christmas Day",
+        "date": "2027-12-25"
+    },
+    {
+        "id": "20271227@1823.gov.hk",
+        "name": "The first weekday after Christmas Day",
+        "date": "2027-12-27"
     }
 ]
